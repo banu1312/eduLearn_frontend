@@ -1,12 +1,13 @@
+import DashboardLayout  from "../layout";
 
-import Image from "next/image";
-
-export default function Home() {
+export default function Dashboard() {
   return (
-    <div>
-    <p className="text-3xl font-medium text-slate-900">
-      Welcome to EduLearn
-    </p>
-    </div>
-  );
+    <DashboardLayout>
+      <div className="ml-56 p-4">
+        <p className="text-3xl font-medium text-slate-900">
+          Dashboard
+        </p>
+      </div>
+    </DashboardLayout>
+  )
 }
